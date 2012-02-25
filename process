@@ -1,0 +1,16 @@
+git checkout -b rel1.0 master
+  588  vi test3.rb
+  596  git add test2.rb 
+  598  git add test3.rb 
+  599  git status
+  600  git commit -m '2 new files' .
+  603  git checkout master
+  609  git fetch origin
+  610  git merge origin/master
+  604  git merge rel1.0
+  606  git status
+  607  git push origin rel1.0
+  608  git checkout master
+  609  git fetch origin
+  610  git merge origin/master
+  611  git status
